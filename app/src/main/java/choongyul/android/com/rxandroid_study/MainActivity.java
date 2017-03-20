@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         // 실제 Task 처리하는 객체 (발행자)
         Observable<String> simpleObservable =
                 Observable.create(new Observable.OnSubscribe<String>() {
